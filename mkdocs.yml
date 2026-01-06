@@ -1,0 +1,57 @@
+site_name: Belsberg Sales Playbook
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+
+extra:
+  footer: |
+    <p>Belsberg Sales Playbook – Pilotversie 1.1 (november 2025)</p>
+
+docs_dir: docs
+
+extra_css:
+  - styles/brand.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Inleiding: index.md
+  - Hoofdstuk 1 – Approach calls & canvass (candidate): hoofdstuk-1-approach-calls-canvass-candidate.md
+  - Hoofdstuk 2 – Prescreen & kwalificatie: hoofdstuk-2-prescreen-kandidaat-kwalificatie.md
+  - Hoofdstuk 3 – Werkwijze & commitment: hoofdstuk-3-werkwijze-commitment.md
+  - Hoofdstuk 4 – Gesprekstechnieken & controle: hoofdstuk-4-gesprekstechnieken-controle.md
+  - Hoofdstuk 5 – Lead chase (van signaal naar opdracht): hoofdstuk-5-lead-chase-van-signaal-naar-opdracht.md
+  - Hoofdstuk 6 – Business development (prospects): hoofdstuk-6-business-development-prospects.md
+  - Hoofdstuk 7 – Business development (existing clients): hoofdstuk-7-business-development-existing-clients.md
+  - Hoofdstuk 8 – Job intake: hoofdstuk-8-job-intake.md
+  - Hoofdstuk 9 – Risking & Closing (framework): hoofdstuk-9-risking-closing.md
+  - Hoofdstuk 10 – Candidate sourcing: hoofdstuk-10-candidate-sourcing.md
+  - Hoofdstuk 11 – Candidate pitching / sendouts: hoofdstuk-11-candidate-pitching-sendouts.md
+  - Hoofdstuk 12 – Interview prep (kandidaat & klant): hoofdstuk-12-interview-prep-kandidaat-klant-incl-verwachtingsmanagement.md
+  - Hoofdstuk 13 – Interview monitoring: hoofdstuk-13-interview-monitoring.md
+  - Hoofdstuk 14 – Debrief & pre-close: hoofdstuk-14-debrief-pre-close-kandidaat-klant.md
+  - Hoofdstuk 15 – Closing the deal: hoofdstuk-15-closing-the-deal.md
+  - Hoofdstuk 16 – Langetermijn relatiebeheer: hoofdstuk-16-langetermijn-relatiebeheer.md
+  - Slotwoord – Implementatie & succes: slotwoord-implementatie-succes.md
+  - Addenda:
+      - Addendum A – Strategische vraagstelling (framework): addendum-a-strategische-vraagstelling-framework.md
+      - Addendum B – 8 criteria invulbaarheid (assessment): addendum-b-8-criteria-van-invulbaarheid-assessment-framework.md
+      - Addendum C – GASS kandidaat assessment: addendum-c-gass-kandidaat-assessment-framework.md
+      - Addendum D – E-mailtemplates: addendum-d-email-templates-bibliotheek.md
+      - Addendum E – Scriptbibliotheek: addendum-e-scripts-bibliotheek.md
+      - Addendum F – Bullhorn intake templates: addendum-f-bullhorn-intake-templates.md
+      - Addendum G – 80/20-regel: addendum-g-80-20-regel.md
+      - Addendum H – Top 10 best practices: addendum-h-top-10-best-practices.md
+
+# Gebruik de echte GitHub Pages URL of laat weg voor lokale builds
+site_url: https://belsbergadmin.github.io/belsberg_playbook_webversie/
+repo_url: https://github.com/BelsbergAdmin/belsberg_playbook_webversie
