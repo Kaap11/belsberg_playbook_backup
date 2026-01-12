@@ -1,0 +1,92 @@
+/* ===== Belsberg Brand Colors =====
+Livid     #4C717A
+Sky       #7DB5C3
+Lime      #D2F8C0
+Lavender  #B0A1F9
+White     #FFFFFF
+Navy      #003D50
+================================= */
+
+/* ---------- Basis Kleuren ---------- */
+:root {
+  --md-primary-fg-color: #003D50;   /* Navy */
+  --md-accent-fg-color: #7DB5C3;    /* Sky */
+  --md-default-bg-color: #FFFFFF;   /* White */
+  --md-default-fg-color: #4C717A;   /* Livid */
+}
+
+/* ---------- Tekst en koppen ---------- */
+.md-typeset {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid #D2F8C0; /* Lime underline */
+  padding-bottom: 4px;
+  margin-bottom: 0.6em;
+}
+
+/* ---------- Tabellen ---------- */
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) thead {
+  background-color: var(--md-accent-fg-color);
+  color: #fff;
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: #F5FAFB;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: #D2F8C0; /* Lime hover */
+}
+
+/* ---------- Info/Tip blokken (admonitions) ---------- */
+.md-typeset .admonition {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background-color: #E9F6F8;
+  border-radius: 4px;
+}
+
+.md-typeset .admonition-title {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* --- Custom footer styling --- */
+.md-footer-meta {
+  background: #003D50; /* Navy */
+  text-align: center;
+  padding: 0.75rem 0;
+}
+
+/* Footer tekst */
+.md-footer-meta p {
+  color: #7DB5C3;      /* Sky */
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Footer links */
+.md-footer-meta a {
+  color: #D2F8C0;
+  text-decoration: none;
+}
+.md-footer-meta a:hover {
+  text-decoration: underline;
+}
+
+
